@@ -1,5 +1,5 @@
 {
-  "name": "nomeperdido_dnd",
+  "name": "nome_perdido_rpg",
   "version": "0.0.1",
   "description": "Basicamente Galio 2",
   "keywords": [
@@ -17,7 +17,8 @@
   },
   "devDependencies": {
     "@types/node": "^26.1.1",
-    "fvtt-types": "npm:@league-of-foundry-developers/foundry-vtt-types@^13.346.0-beta.20250812191140",
+    "esbuild": "^0.28.1",
+    "fvtt-types": "github:League-of-Foundry-Developers/foundry-vtt-types#main",
     "typescript": "^5.9.3"
   }
 }

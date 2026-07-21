@@ -1,0 +1,4 @@
+[submodule "foundry-modules/dnd5e"]
+	path = foundry-modules/dnd5e
+	url = https://github.com/foundryvtt/dnd5e.git
+	branch = 6.0.x
