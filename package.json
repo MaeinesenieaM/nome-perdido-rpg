@@ -1,0 +1,23 @@
+{
+  "name": "nomeperdido_dnd",
+  "version": "0.0.1",
+  "description": "Basicamente Galio 2",
+  "keywords": [
+    "rpg",
+    "nome_perdido"
+  ],
+  "license": "MIT",
+  "author": "MaeinesenieaM",
+  "type": "commonjs",
+  "main": "scripts/index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.1",
+    "fvtt-types": "npm:@league-of-foundry-developers/foundry-vtt-types@^13.346.0-beta.20250812191140",
+    "typescript": "^5.9.3"
+  }
+}

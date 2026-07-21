@@ -1,0 +1,36 @@
+{
+  "id": "nome-perdido-rpg",
+  "title": "Nome Perdido",
+  "version": "0.0.1",
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14"
+  },
+  "description": "<p>Modulo do RPG Nome Perdido. Os Choram.</p>",
+  "authors": [
+    {
+      "name": "Dominick",
+      "discord": "GROS",
+      "flags": {}
+    },
+    {
+      "name": "Maeine",
+      "email": "david.costa.gomes71@gmail.com",
+      "discord": "MaeinesenieaM",
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "canUpload": true
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "scripts": ["./scripts/index.js"],
+}
