@@ -14,8 +14,8 @@ var require_index = __commonJS({
     console.log(g.dnd5e);
     console.log("FUNCIONA!");
     var CALENDARIO_NOME_PERDIDO_CONFIG = {
-      name: "calendario maine",
-      description: "muito foda",
+      name: "Calendario Nome Perdido",
+      description: "",
       years: {
         yearZero: 0,
         firstWeekday: 0,
@@ -28,16 +28,76 @@ var require_index = __commonJS({
         name: "Eita",
         values: [
           {
-            name: "Fodas",
-            abbreviation: "foda",
+            name: "Janeiro",
+            abbreviation: "jan",
             ordinal: 1,
-            days: 100
+            days: 20
           },
           {
-            name: "Loucos",
-            abbreviation: "louco",
+            name: "Fevereiro",
+            abbreviation: "fev",
             ordinal: 2,
-            days: 100
+            days: 20
+          },
+          {
+            name: "Mar\xE7o",
+            abbreviation: "mar",
+            ordinal: 3,
+            days: 20
+          },
+          {
+            name: "Abril",
+            abbreviation: "abr",
+            ordinal: 4,
+            days: 20
+          },
+          {
+            name: "Maio",
+            abbreviation: "mai",
+            ordinal: 5,
+            days: 20
+          },
+          {
+            name: "Junho",
+            abbreviation: "jun",
+            ordinal: 6,
+            days: 20
+          },
+          {
+            name: "Julho",
+            abbreviation: "jul",
+            ordinal: 7,
+            days: 20
+          },
+          {
+            name: "Agosto",
+            abbreviation: "ago",
+            ordinal: 8,
+            days: 20
+          },
+          {
+            name: "Setembro",
+            abbreviation: "set",
+            ordinal: 9,
+            days: 20
+          },
+          {
+            name: "Outubro",
+            abbreviation: "out",
+            ordinal: 10,
+            days: 20
+          },
+          {
+            name: "Novembro",
+            abbreviation: "nov",
+            ordinal: 11,
+            days: 20
+          },
+          {
+            name: "Dezembro",
+            abbreviation: "dez",
+            ordinal: 12,
+            days: 20
           }
         ]
       },
@@ -47,27 +107,42 @@ var require_index = __commonJS({
         minutesPerHour: 60,
         secondsPerMinute: 60,
         values: [
-          { name: "um", ordinal: 1 },
-          { name: "dois", ordinal: 2 },
+          { name: "segunda", ordinal: 1 },
+          { name: "ter\xE7a", ordinal: 2 },
           { name: "quarta", ordinal: 3 },
-          { name: "tres", ordinal: 4 },
-          { name: "cinco", ordinal: 5 }
+          { name: "quinta", ordinal: 4 },
+          { name: "sexta", ordinal: 5 }
         ]
       },
       seasons: {
         values: [
           {
             monthStart: 1,
-            monthEnd: 2,
+            monthEnd: 3,
             name: "INFERNO"
+          },
+          {
+            monthStart: 4,
+            monthEnd: 6,
+            name: "RISO"
+          },
+          {
+            monthStart: 7,
+            monthEnd: 9,
+            name: "SAL"
+          },
+          {
+            monthStart: 10,
+            monthEnd: 12,
+            name: "DOCE"
           }
         ]
       }
     };
     Hooks.once("dnd5e.setupCalendar", function() {
       CONFIG.DND5E.calendar.calendars.push({
-        value: "teste-maine",
-        label: "MAINE TESTE",
+        value: "nome-perdido",
+        label: "Nome Perdido",
         config: CALENDARIO_NOME_PERDIDO_CONFIG
       });
     });
