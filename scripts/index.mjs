@@ -146,12 +146,10 @@ var require_index = __commonJS({
         config: CALENDARIO_NOME_PERDIDO_CONFIG
       });
       CONFIG.DND5E.currencies.mc = {
-        pp: {
-          label: "Maeine Coin",
-          abbreviation: "maeinecoin",
-          conversion: 1e3,
-          icon: "modules/nome-perdido-rpg/icons/maeineicon.webp"
-        }
+        label: "Maeine Coin",
+        abbreviation: "mc",
+        conversion: 1e-3,
+        icon: "modules/nome-perdido-rpg/icons/maeineicon.webp"
       };
     });
   }

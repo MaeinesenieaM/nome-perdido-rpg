@@ -140,11 +140,9 @@ Hooks.once("dnd5e.setupCalendar", function () {
 
 
 	CONFIG.DND5E.currencies.mc = {
-		pp: {
-  		  label: "Maeine Coin",
-  		  abbreviation: "maeinecoin",
-  		  conversion: 1000,
-  		  icon: "modules/nome-perdido-rpg/icons/maeineicon.webp"
-  		},
+  		label: "Maeine Coin",
+  		abbreviation: "mc",
+  		conversion: 0.001,
+  		icon: "modules/nome-perdido-rpg/icons/maeineicon.webp"
 	}
 });
