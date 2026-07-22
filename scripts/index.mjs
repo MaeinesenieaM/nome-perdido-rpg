@@ -64,7 +64,7 @@ var require_index = __commonJS({
         ]
       }
     };
-    Hooks.once("init", function() {
+    Hooks.once("dnd5e.setupCalendar", function() {
       CONFIG.DND5E.calendar.calendars.push({
         value: "teste-maine",
         label: "MAINE TESTE",
