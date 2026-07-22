@@ -137,4 +137,14 @@ Hooks.once("dnd5e.setupCalendar", function () {
 		label: "Nome Perdido",
 		config: CALENDARIO_NOME_PERDIDO_CONFIG
 	});
+
+
+	CONFIG.DND5E.currencies.mc = {
+		pp: {
+  		  label: "Maeine Coin",
+  		  abbreviation: "maeinecoin",
+  		  conversion: 1000,
+  		  icon: "modules/nome-perdido-rpg/icons/maeineicon.webp"
+  		},
+	}
 });
