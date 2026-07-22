@@ -34,7 +34,7 @@ const CALENDARIO_NOME_PERDIDO_CONFIG = {
 	days: {
 		daysPerYear: 200,
 		hoursPerDay: 24,
-		minutesPerDay: 60,
+		minutesPerHour: 60,
 		secondsPerMinute: 60,
 		values: [
 			{ name: "um", ordinal: 1 },
