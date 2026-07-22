@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/index.ts"],
+  "sourcesContent": ["const g = game as ReadyGame;\r\n\r\nconsole.log(g.dnd5e);\r\nconsole.log(\"FUNCIONA!\");"],
+  "mappings": ";;;;;;;;;;AAAA;AAAA;AAAA,QAAM,IAAI;AAEV,YAAQ,IAAI,EAAE,KAAK;AACnB,YAAQ,IAAI,WAAW;AAAA;AAAA;",
+  "names": []
+}
