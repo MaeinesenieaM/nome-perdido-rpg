@@ -16,4 +16,4 @@ var require_index = __commonJS({
   }
 });
 export default require_index();
-//# sourceMappingURL=index.js.map
+//# sourceMappingURL=index.mjs.map

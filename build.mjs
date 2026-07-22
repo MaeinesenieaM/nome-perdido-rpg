@@ -5,7 +5,7 @@ const watch = process.argv.includes("--watch");
 const options = {
   entryPoints: ["src/index.ts"],
   bundle: true,
-  outfile: "scripts/index.js",
+  outfile: "scripts/index.mjs",
   format: "esm",
   platform: "browser",
   sourcemap: true,
